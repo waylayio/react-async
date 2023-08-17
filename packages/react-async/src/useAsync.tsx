@@ -210,7 +210,10 @@ function useAsync<T>(arg1: AsyncOptions<T> | PromiseFn<T>, arg2?: AsyncOptions<T
   }, [promise, promiseFn, watch])
   useEffect(
     () => () => {
-      isMounted.current = false
+      isMounted.current = true
+      return () => {
+        isMounted.current = false
+      }
     },
     []
   )
