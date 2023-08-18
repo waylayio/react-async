@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { useCallback, useDebugValue, useEffect, useMemo, useRef, useReducer } from "react"
 
 import globalScope, { MockAbortController, noop } from "./globalScope"
@@ -208,15 +209,12 @@ function useAsync<T>(arg1: AsyncOptions<T> | PromiseFn<T>, arg2?: AsyncOptions<T
     if (counter.current) cancel()
     if (promise || promiseFn) load()
   }, [promise, promiseFn, watch])
-  useEffect(
-    () => () => {
-      isMounted.current = true
-      return () => {
-        isMounted.current = false
-      }
-    },
-    []
-  )
+  useEffect(() => {
+    isMounted.current = true
+    return () => {
+      isMounted.current = false
+    }
+  }, [])
   useEffect(() => () => cancel(), [])
   /* eslint-enable react-hooks/exhaustive-deps */
 

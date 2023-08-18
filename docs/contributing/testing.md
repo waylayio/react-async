@@ -11,15 +11,6 @@ yarn test:watch
 In general, this is sufficient during development. CircleCI and Travis will eventually apply a more rigorous set of
 tests against your pull request, including the ones below.
 
-## Testing the examples
-
-Because React Async is only a piece in a bigger puzzle, testing for integration with other libraries is very important.
-You can run the tests for all examples against your local changes with the following command:
-
-```sh
-yarn test:examples
-```
-
 If you want to add integration tests for compatibility with another library, please add an example for it.
 
 ## Testing for compatibility

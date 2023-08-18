@@ -1,5 +1,5 @@
 {
-  "name": "react-async-devtools",
+  "name": "@waylay/react-async-devtools",
   "version": "10.0.0",
   "description": "DevTools for React Async",
   "keywords": [

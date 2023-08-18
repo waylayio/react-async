@@ -38,7 +38,7 @@ yarn bootstrap
 yarn test
 ```
 
-This should install all dependencies, build and link the react-async and react-async-devtools packages to the examples,
+This should install all dependencies, build the react-async and react-async-devtools packages
 and finally run the unit tests. In the end it should succeed with a message (numbers may change):
 
 ```
