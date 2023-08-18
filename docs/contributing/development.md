@@ -27,19 +27,3 @@ yarn start:storybook
 
 This should open up Storybook in a browser at http://localhost:6006/
 Run it side-by-side with `yarn test --watch` during development. See [Testing](#testing).
-
-## Working with the examples
-
-In the `examples` folder, you will find sample React applications that use React Async in various ways with various other libraries. Please add a new example when introducing a major new feature. Make sure to add it to `now.json` so it is automatically deployed when merged to `master`.
-
-To run sample examples on your local environments
-
-```sh
-yarn build:examples
-yarn test:examples
-yarn start:examples
-```
-
-## Resolving issues
-
-Sometimes your dependencies might end up in a weird state, causing random issues, especially when working with the examples. In this case it often helps to run `yarn clean -y && yarn bootstrap`. This will delete `node_modules` from all packages/examples and do a clean install.

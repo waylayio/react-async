@@ -1,14 +1,8 @@
 {
   "npmClient": "yarn",
   "packages": [
-    "examples/*",
     "packages/*"
   ],
-  "publish": {
-    "ignoreChanges": [
-      "examples/**"
-    ]
-  },
   "useWorkspaces": true,
   "version": "10.0.0"
 }

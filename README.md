@@ -37,9 +37,6 @@
   <a href="https://discord.gg/CAYQ6mU">
     <img src="https://img.shields.io/badge/discord-join-7289DA.svg?logo=discord&longCache=true&style=flat" />
   </a>
-  <a href="https://react-async.now.sh/examples/">
-    <img src="https://badgen.net/badge/live%20examples/available/pink?icon=now" alt="live examples">
-  </a>
   <a href="https://www.chromaticqa.com/builds?appId=5d7fff2b307e4b0020ae1be4">
     <img src="https://badgen.net/badge/tested%20with/chromatic/fc521f" alt="Chromatic">
   </a>
@@ -129,8 +126,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://jimthedev.com"><img src="https://avatars0.githubusercontent.com/u/108938?v=4" width="75px;" alt=""/><br /><sub><b>Jim Cummins</b></sub></a><br /><a href="https://github.com/async-library/react-async/pulls?q=is%3Apr+reviewed-by%3Ajimthedev" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="http://mihkel.sokk.ee"><img src="https://avatars3.githubusercontent.com/u/231978?v=4" width="75px;" alt=""/><br /><sub><b>Mihkel Sokk</b></sub></a><br /><a href="https://github.com/async-library/react-async/pulls?q=is%3Apr+reviewed-by%3Amsokk" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://github.com/brabeji"><img src="https://avatars3.githubusercontent.com/u/2237954?v=4" width="75px;" alt=""/><br /><sub><b>Jiří Brabec</b></sub></a><br /><a href="https://github.com/async-library/react-async/commits?author=brabeji" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/unorsk"><img src="https://avatars0.githubusercontent.com/u/25188?v=4" width="75px;" alt=""/><br /><sub><b>Andrii U</b></sub></a><br /><a href="#example-unorsk" title="Examples">💡</a></td>
-    <td align="center"><a href="http://matthisk.nl"><img src="https://avatars0.githubusercontent.com/u/602837?v=4" width="75px;" alt=""/><br /><sub><b>Matthisk Heimensen</b></sub></a><br /><a href="https://github.com/async-library/react-async/commits?author=matthisk" title="Code">💻</a></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/dhurlburtusa"><img src="https://avatars3.githubusercontent.com/u/4006431?v=4" width="75px;" alt=""/><br /><sub><b>Danny Hurlburt</b></sub></a><br /><a href="#ideas-dhurlburtusa" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/async-library/react-async/commits?author=dhurlburtusa" title="Documentation">📖</a></td>
